@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: white;
+  color: black;
+}
+
+.navbar img {
+  max-width: 240px;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.nav-link:hover {
+  color: rgb(37, 103, 190);
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/Media/service.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.banner h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+
+.service img {
+  max-width: 100%;
+}
+.service h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.service p {
+  font-weight: 400;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer h4,
+h5 {
+  font-weight: 900;
+}
+
+.footer p {
+  margin: 0;
+}
+.footer img {
+  max-width: 250px;
+}
+.link {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.link:hover {
+  color: rgb(37, 103, 190);
+  padding-left: 5px;
+  transition: all 0.5s;
+}
+.social {
+  color: white;
+  font-size: 24px;
+  transition: all 0.4s;
+}
+.social:hover {
+  color: #2c69d1;
+  transition: all 0.4s;
+  cursor: pointer;
+}
