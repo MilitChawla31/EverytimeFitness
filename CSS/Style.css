@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: white;
+  color: black;
+}
+
+.navbar img {
+  max-width: 240px;
+}
+
+.nav-item {
+  padding-right: 50px;
+  text-align: right;
+}
+
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.nav-link:hover {
+  color: rgb(37, 103, 190);
+}
+
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/Media/main.jpg) no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+
+.main h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.main span {
+  color: rgb(37, 103, 190);
+}
+
+.btn1 {
+  height: 55px;
+  width: 140px;
+  color: white;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+  transition: 1s;
+}
+
+.btn1:hover {
+  background-image: linear-gradient(315deg, #2c69d1 0%, #0abcf9 74%);
+  transition: 1s;
+}
+
+.details {
+  margin-top: -50px;
+}
+
+.details h5 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.back:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.back {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+
+.back::before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+  z-index: -1;
+  transition: all 0.8s;
+}
+
+.back:hover::before {
+  height: 100%;
+}
+
+.more h2 {
+  font-weight: 800;
+}
+
+.more span {
+  color: rgb(37, 103, 190);
+}
+
+.more p {
+  font-weight: lighter;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.discover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/Media/discover.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.discover h1 {
+  padding-top: 220px;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+
+.discover span {
+  color: rgb(37, 103, 190);
+}
+
+.services h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.services h5 {
+  font-weight: 700;
+}
+.services span {
+  color: rgb(37, 103, 190);
+}
+.fas {
+  font-size: 2.5rem;
+}
+.back:hover .fas {
+  color: white;
+}
+
+.btn2 {
+  height: 55px;
+  width: 80%;
+  color: white;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+  transition: 1s;
+}
+
+.btn2:hover {
+  background-image: linear-gradient(315deg, #2c69d1 0%, #0abcf9 74%);
+  transition: all 1s;
+}
+
+.btn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer h4,
+h5 {
+  font-weight: 900;
+}
+
+.footer p {
+  margin: 0;
+}
+.footer img{
+  max-width: 250px;
+}
+.link {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.link:hover {
+  color: rgb(37, 103, 190);
+  padding-left: 5px;
+  transition: all 0.5s;
+}
+.social {
+  color: white;
+  font-size: 24px;
+  transition: all 0.4s;
+}
+
+.social:hover {
+  color: #2c69d1;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
