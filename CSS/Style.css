@@ -27,17 +27,17 @@
   color: rgb(37, 103, 190);
 }
 
-/* .main {
+.main {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(https://images.pexels.com/photos/3076513/pexels-photo-3076513.jpeg) no-repeat;
+    url('https://images.pexels.com/photos/3076513/pexels-photo-3076513.jpeg') no-repeat;
   background-size: cover;
   height: 110vh;
-} */
+} 
 
-.main {
+/* .main {
   background: url('https://images.pexels.com/photos/3076513/pexels-photo-3076513.jpeg') no-repeat center center/cover;
   height: 110vh;
-}
+} */
 
 .main h1 {
   font-size: 5rem;
