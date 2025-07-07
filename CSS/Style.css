@@ -29,7 +29,7 @@
 
 .main {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/Media/main.jpg) no-repeat;
+    url(https://images.pexels.com/photos/3076513/pexels-photo-3076513.jpeg) no-repeat;
   background-size: cover;
   height: 110vh;
 }
@@ -113,7 +113,7 @@ p {
 
 .discover {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/Media/discover.jpg) no-repeat;
+    url(https://images.pexels.com/photos/6787162/pexels-photo-6787162.jpeg) no-repeat;
   background-size: cover;
   width: 100%;
 }
